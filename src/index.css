@@ -1,0 +1,61 @@
+.appStyle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: auto;
+    min-height: 100vh;
+    padding-top: 16vh;
+    margin-bottom: 0;
+    background-color: rgb(199, 198, 216);
+    width: 100%;
+    overflow: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.appErrorMessage{
+  font-size: larger;
+  color: red;
+  font-weight: 600;
+}
+
+.appSuccessMessage{
+  font-size: larger;
+  color: green;
+  font-weight: 600;
+}
+
+.appBox {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  vertical-align: auto;
+}
+
+.ShowConnectedDevicesBox {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 5px;
+  width: auto;
+}
+
+.customText {
+  color: black;
+  font-size: 17px;
+  font-weight: 600;
+  display: inline;
+}

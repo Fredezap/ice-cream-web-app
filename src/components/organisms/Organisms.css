@@ -1,0 +1,253 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0;
+    padding: 5px 10px;
+    background-color: rgb(17, 39, 71);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    color: whitesmoke;
+    height: 15vh;
+}
+
+.h4Text {
+    color: whitesmoke;
+}
+
+.mainBoxRecipes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 200px;
+    padding-bottom: 20px;
+    border-bottom: solid white 2px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: rgb(17, 39, 71);
+    bottom: 0;
+    margin-top: auto;
+    left: 0;
+    width: 100%;
+    color: whitesmoke;
+    height: 12vh;
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 15px;
+}
+
+.logInRegister {
+    margin-right: -60px;
+    margin-left: -20px;
+}
+.userLoggedIcon {
+    font-size: 55px;
+    cursor: pointer;
+    position: relative;
+}
+
+.dropdownMenuInvisivleItem {
+    opacity: 0;
+    font-size: large;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.userLoggedIcon:hover + .userLoggedDropdownMenu,
+.userLoggedDropdownMenu:hover {
+    z-index: -1;
+    display: block;
+    position: absolute;
+    top: 35%;
+    left: 79vw;
+    background-color: rgb(17, 39, 71);
+    min-width: 210px;
+    color: white;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.userLoggedDropdownMenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50vw; /* Ajusta el left según la posición deseada */
+    padding: 0;
+}
+
+.dropdownMenuList {
+    margin: 0;
+    width: 100%;
+    position: relative;
+    padding: 0;
+    list-style-type: none;
+}
+
+.dropdownMenuItem {
+    font-size: large;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.dropdownMenuItem:hover {
+    background-color: rgba(110, 139, 183, 0.9);
+    color: black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.rowBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.rowBoxHome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 30px;
+    gap: 200px;
+}
+
+.tableBoxIngredients {
+    max-width: 80%;
+    min-width: 80%;
+    margin-right: 200px;
+    margin-top: 10px;
+}
+
+.searchInputIngredientsTable {
+    margin: 20px;
+}
+
+.ingredientsMessageBox {
+    margin-bottom: 100px;
+}
+
+.tableBoxIngredientsHead tr th {
+    background-color: rgb(255, 237, 213);
+    text-align: center;
+    padding-left: 16px; /* Ajusta este valor según sea necesario */
+}
+
+#editAndDeleteButton {
+    margin: 50px;
+    font-size: 40px;
+    cursor: pointer;
+    padding: 0;
+    background-color: aqua;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    border-bottom: none;
+    border-radius: 100px;
+}
+
+#deleteButton {
+    margin: 50px;
+    font-size: 40px;
+    cursor: pointer;
+    padding: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    border-bottom: none;
+    border-radius: 100px;
+    background-color: rgb(255, 237, 213);
+}
+
+#deleteButton:hover {
+    background-color: rgb(214, 0, 0);
+    transition: 0.5s;
+}
+
+#editButton {
+    background-color: rgb(255, 237, 213);
+    margin: 50px;
+    font-size: 40px;
+    cursor: pointer;
+    padding: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    border-bottom: none;
+    border-radius: 100px;
+}
+
+#editButton:hover {
+    background-color: rgb(38, 115, 38);
+    transition: 0.5s;
+}
+
+.HeaderIngredientsBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -150px;
+}
+
+.addIngredientButton {
+    margin-right: -70px;
+}
+
+#divForIngredientTableButtons {
+    padding: 5px;
+    background-color: rgb(199, 198, 216);
+}
+
+#wrappedDivForIngredientTableButtons {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+
+.tableBoxIngredientsBody tr td {
+    background-color:rgb(255, 247, 236);
+    text-align: center;
+    padding-right: 16px; /* Ajusta este valor según sea necesario */
+}
+
+#ingredientsTableDescription {
+    padding: 0;
+    padding-right: 10px;
+}
+
+#ingredientsTableDescription p {
+    font-size: large;
+}
+
+
+.topRecipesBottonsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 95vw;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: rgb(29, 29, 34);
+    margin-top: 20px;
+}

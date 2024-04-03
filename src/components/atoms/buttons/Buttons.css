@@ -1,0 +1,163 @@
+.button {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    padding: 9px 20px;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.buttonRed {
+    background-color: rgba(231, 13, 13, 0.8);
+    padding: 3px 30px;
+    font-size: medium;
+}
+
+.buttonRed:hover {
+    background-color: rgb(212, 22, 22);
+}
+
+.buttonLightblue {
+    background-color: rgba(35, 206, 235);
+}
+
+.buttonLightblue:hover {
+    background-color: rgba(35, 206, 235, 0.8);
+}
+
+.buttonWhite {
+    background-color: aliceblue;
+}
+
+.buttonWhite:hover {
+    background-color: rgb(211, 229, 229);
+}
+
+.buttonBlack {
+    background-color: rgb(15, 1, 1);
+    color: white;
+    width: auto;
+    margin-top: 30px;
+}
+
+.buttonBlack:hover {
+    background-color: rgb(42, 39, 39);
+}
+
+.buttonDarkBlue {
+    background-color: rgb(5, 41, 187);
+    color: whitesmoke;
+}
+
+.buttonDarkBlue:hover {
+    background-color: rgba(5, 41, 187, 0.661);
+}
+
+.largePrimaryButton {
+    background-color: rgb(25, 118, 210);
+    color: white;
+    width: 200px;
+    margin-top: 30px;
+}
+
+.largePrimaryButton:hover {
+    background-color: rgb(17, 82, 147);
+}
+
+.largeSecondaryButton {
+    background-color: rgb(85, 85, 85);;
+    color: white;
+    width: 200px;
+    margin-top: 30px;
+}
+
+.largeSecondaryButton:hover {
+    background-color: rgb(54, 54, 54);
+}
+
+.largeBlackButton {
+    background-color: rgb(15, 1, 1);
+    color: white;
+    width: 25%;
+    margin-top: 30px;
+}
+
+.littleBlackButton {
+    background-color: rgb(15, 10, 10);
+    color: white;
+    padding: 3px 30px;
+    font-size: medium;
+}
+
+.littleBlackButton:hover {
+    background-color: rgb(57, 42, 42);
+}
+
+.littleGreenButton {
+    background-color: rgb(0, 84, 3);
+    color: white;
+    padding: 3px 30px;
+    font-size: medium;
+}
+
+.littleGreenButton:hover {
+    background-color: rgb(0, 119, 4);
+}
+
+.noBackgroundBottonIngredients {
+    background-color: rgb(255, 247, 236);
+    border: none;
+    padding: 0px 5px;
+    outline: none;
+}
+
+.noBackgroundBottonIngredients:hover {
+    background-color: rgba(255, 230, 196, 0.769);
+    transition: 0.5s;
+}
+
+.noBackgroundBotton {
+    background-color: white;
+    border: solid white 1px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    outline: none;
+    font-weight: 600;
+}
+
+.noBackgroundBotton:hover {
+    border: solid rgb(0, 0, 44) 1px;
+    transition: 0.5s;
+}
+
+.littleButtonWhite {
+    background-color: rgba(255, 255, 255, 0.902);
+    color: black;
+    padding: 3px 30px;
+    font-size: medium;
+}
+
+.littleButtonWhite:hover {
+    background-color: rgba(255, 255, 255, 0.597)
+}
+
+.largeBlackButton:hover {
+    background-color: rgb(42, 39, 39);
+}
+
+.miniButtonCyan {
+    background-color: #0f86b6;
+    color: rgb(0, 0, 0);
+
+    padding: 3px 30px;
+    font-size: medium;
+}
+
+.miniButtonCyan:hover {
+    color: beige;
+}

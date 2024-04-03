@@ -1,0 +1,23 @@
+.logo {
+    font-size: 50px;
+    padding: 0;
+    margin-right: 10px;
+    height: 75px;
+    width: 80px;
+    border-radius: 50px;
+}
+
+.logoBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: yellow;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.logoBox:hover {
+    transform: scale(1.05);  /* Hacemos crecer el elemento en un 5% en ambos ejes */
+}

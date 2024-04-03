@@ -1,0 +1,46 @@
+.errorMessage{
+    color: red;
+    font-size: large;
+    text-align: center;
+}
+
+.errorMessageNote {
+    color: red;
+}
+
+.successMessage{
+    color: rgb(34, 152, 34);
+    font-size: large;
+    text-align: center;
+}
+
+.loginMessage {
+    color: rgb(64, 154, 186);
+}
+
+.gettingMessage {
+    color: rgb(89, 146, 167);
+}
+
+.text {
+    color: rgb(17, 39, 71);
+    align-self: center;
+    text-align: center;
+}
+
+.spacer-top {
+margin-bottom: 12vh;
+margin-top: 0;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: auto;
+    min-height: 60vh;
+    width: 100%;
+    padding-bottom: 6vh;
+    margin-top: 50px;
+}
